@@ -1,0 +1,18 @@
+:root {
+  --size: 10rem;
+}
+.main {
+  text-align: center;
+}
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, var(--size));
+  grid-template-rows: repeat(3, var(--size));
+  gap: 0.1rem;
+  justify-content: center;
+}
+
+.reset {
+  margin-top: 2rem;
+  padding: 1rem;
+}
